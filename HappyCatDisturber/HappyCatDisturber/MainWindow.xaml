@@ -7,7 +7,8 @@
         mc:Ignorable="d"
         Width="800" Height="600" Background="Transparent"
 		AllowsTransparency="True"
-		WindowStyle="None">
+		WindowStyle="None"
+		Topmost="True">
     <Grid>
 		<Image Source="resources/happy-cat.gif" Opacity="0.5"/>
 	</Grid>
