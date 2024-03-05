@@ -9,6 +9,7 @@
         Width="800" Height="600" Background="Transparent"
 		AllowsTransparency="True"
 		WindowStyle="None"
+		ShowInTaskbar="False"
 		Topmost="True">
     <Grid>
         <Image gif:ImageBehavior.AnimatedSource="resources/happy-cat.gif"
