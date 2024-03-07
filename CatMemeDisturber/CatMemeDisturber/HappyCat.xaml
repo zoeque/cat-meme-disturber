@@ -10,7 +10,8 @@
 		AllowsTransparency="True"
 		WindowStyle="None"
 		ShowInTaskbar="False"
-		Topmost="True">
+		Topmost="True"
+		WindowState="Maximized">
     <Grid>
         <Image gif:ImageBehavior.AnimatedSource="resources/happy-cat.gif"
            gif:ImageBehavior.AutoStart="True"/>

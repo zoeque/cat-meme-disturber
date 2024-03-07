@@ -11,7 +11,8 @@
 		AllowsTransparency="True"
 		WindowStyle="None"
         ShowInTaskbar="False"
-		Topmost="True">
+		Topmost="True"
+		WindowState="Maximized">
     <Grid>
         <Image gif:ImageBehavior.AnimatedSource="resources/goat.gif"
            gif:ImageBehavior.AutoStart="True"/>
