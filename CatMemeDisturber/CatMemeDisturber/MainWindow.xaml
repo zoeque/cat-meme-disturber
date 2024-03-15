@@ -5,7 +5,8 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CatMemeDisturber"
         mc:Ignorable="d"
-        Title="CatMemeButton" Height="226" Width="200">
+        Title="CatMemeButton" Height="226" Width="200"
+        Closing="Window_Closing">
     <Grid Margin="0,0,0,-6" HorizontalAlignment="Center" Width="200">
         <Button Content="HappyCat" HorizontalAlignment="Center" Margin="0,37,0,138" Width="128" RenderTransformOrigin="0.5,0.5" Click="HappyCat_Button_Click">
             <Button.RenderTransform>
