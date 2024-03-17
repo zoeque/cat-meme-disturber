@@ -5,6 +5,7 @@ Happy Cat dances on your desktop!!
 ## How to use  
 - run by executing exe file
 - stop by task kill, e.g. Task manager
+  - Maxwell the cat appears when the window is closed
 
 ## Contents
 - GoatDisturber. 
