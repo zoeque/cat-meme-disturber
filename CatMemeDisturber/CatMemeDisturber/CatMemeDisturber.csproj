@@ -11,11 +11,13 @@
   <ItemGroup>
     <None Remove="resources\goat.gif" />
     <None Remove="resources\happy-cat.gif" />
+    <None Remove="resources\maxwell-cat.gif" />
   </ItemGroup>
 
   <ItemGroup>
     <Resource Include="resources\goat.gif" />
     <Resource Include="resources\happy-cat.gif" />
+    <Resource Include="resources\maxwell-cat.gif" />
   </ItemGroup>
 
   <ItemGroup>

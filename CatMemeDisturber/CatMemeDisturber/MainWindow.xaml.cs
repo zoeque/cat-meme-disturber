@@ -50,7 +50,7 @@ namespace CatMemeDisturber
         /// <param name="e"></param>
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
-            HappyCat cat = new HappyCat();
+            MaxwellCat cat = new MaxwellCat();
             cat.Show();
         }
     }
