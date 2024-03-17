@@ -10,7 +10,8 @@
 		AllowsTransparency="True"
 		WindowStyle="None"
 		ShowInTaskbar="False"
-		Topmost="True">
+		Topmost="True"
+        Closing="Window_Closing">
     <Grid>
         <Image gif:ImageBehavior.AnimatedSource="resources/maxwell-cat.gif"
            gif:ImageBehavior.AutoStart="True"/>

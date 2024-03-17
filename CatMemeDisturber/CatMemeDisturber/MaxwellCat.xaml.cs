@@ -23,5 +23,11 @@ namespace CatMemeDisturber
         {
             InitializeComponent();
         }
+
+        private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
+        {
+            MaxwellCat cat = new MaxwellCat(); 
+            cat.Show();
+        }
     }
 }
