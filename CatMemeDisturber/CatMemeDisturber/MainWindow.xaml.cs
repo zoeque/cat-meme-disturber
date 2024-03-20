@@ -44,13 +44,28 @@ namespace CatMemeDisturber
         }
 
         /// <summary>
-        /// Show the happy cat when the button menu is closed
+        /// Show four maxwell the cat when the button menu is closed
         /// </summary>
         /// <param name="sender"></param>
         /// <param name="e"></param>
         private void Window_Closing(object sender, System.ComponentModel.CancelEventArgs e)
         {
+            ShowWindowAt(0, 0); 
+            ShowWindowAt(SystemParameters.WorkArea.Width, 0); 
+            ShowWindowAt(0, SystemParameters.WorkArea.Height); 
+            ShowWindowAt(SystemParameters.WorkArea.Width, SystemParameters.WorkArea.Height); 
+        }
+
+        /// <summary>
+        /// Show the maxwell the cat with a given cordinate
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        private void ShowWindowAt(double x, double y)
+        {
             MaxwellCat cat = new MaxwellCat();
+            cat.Left = x;
+            cat.Top = y;
             cat.Show();
         }
     }
