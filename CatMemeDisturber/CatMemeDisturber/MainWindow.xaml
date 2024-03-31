@@ -5,8 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CatMemeDisturber"
         mc:Ignorable="d"
-        Title="CatMemeButton" Height="226" Width="200"
-        Closing="Window_Closing">
+        Title="CatMemeButton" Height="226" Width="200">
     <Grid Margin="0,0,0,-6" HorizontalAlignment="Center" Width="200">
         <Button Content="HappyCat" HorizontalAlignment="Center" Margin="0,37,0,138" Width="128" RenderTransformOrigin="0.5,0.5" Click="HappyCat_Button_Click">
             <Button.RenderTransform>
@@ -19,6 +18,16 @@
             </Button.RenderTransform>
         </Button>
         <Button Content="Goat" HorizontalAlignment="Center" Margin="0,129,0,46" Width="128" RenderTransformOrigin="0.5,0.5" Click="Goat_Button_Click">
+            <Button.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform AngleX="-0.674"/>
+                    <RotateTransform/>
+                    <TranslateTransform X="-0.388"/>
+                </TransformGroup>
+            </Button.RenderTransform>
+        </Button>
+        <Button Content="Maxwell" HorizontalAlignment="Center" Margin="0,83,0,92" Width="128" RenderTransformOrigin="0.5,0.5" Click="Maxwell_Button_Click">
             <Button.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
