@@ -11,8 +11,12 @@
 		WindowStyle="None"
 		ShowInTaskbar="False"
 		Topmost="True">
-    <Grid>
-        <Image gif:ImageBehavior.AnimatedSource="resources/maxwell-cat.gif"
+	<Grid x:Name="OperationArea"
+          MouseLeftButtonDown="OperationArea_MouseLeftButtonDown"
+          MouseLeftButtonUp="OperationArea_MouseLeftButtonUp"
+          MouseMove="OperationArea_MouseMove">
+		<Rectangle x:Name="Target" Width="200" Height="200" />
+		<Image gif:ImageBehavior.AnimatedSource="resources/maxwell-cat.gif"
            gif:ImageBehavior.AutoStart="True"/>
     </Grid>
 </Window>

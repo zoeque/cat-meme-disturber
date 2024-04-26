@@ -23,5 +23,34 @@ namespace CatMemeDisturber
         {
             InitializeComponent();
         }
+
+        private bool isDragging = false;
+        private Point anchorPoint;
+
+        private void OperationArea_MouseLeftButtonDown(object sender, MouseButtonEventArgs e)
+        {
+            this.isDragging = true;
+            this.anchorPoint = e.GetPosition(this);
+            this.MouseMove += OperationArea_MouseMove;
+            this.MouseLeftButtonUp += OperationArea_MouseLeftButtonUp;
+        }
+
+        private void OperationArea_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
+        {
+            this.isDragging = false;
+            this.MouseMove -= OperationArea_MouseMove;
+            this.MouseLeftButtonUp -= OperationArea_MouseLeftButtonUp;
+        }
+
+        private void OperationArea_MouseMove(object sender, MouseEventArgs e)
+        {
+            if (this.isDragging)
+            {
+                Point currentPoint = e.GetPosition(this);
+                this.Left += currentPoint.X - this.anchorPoint.X;
+                this.Top += currentPoint.Y - this.anchorPoint.Y;
+            }
+        }
     }
 }
+
