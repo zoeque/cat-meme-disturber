@@ -13,7 +13,10 @@
         ShowInTaskbar="False"
 		Topmost="True"
 		WindowState="Maximized">
-    <Grid>
+    <Grid x:Name="OperationArea"
+          MouseLeftButtonDown="OperationArea_MouseLeftButtonDown"
+          MouseLeftButtonUp="OperationArea_MouseLeftButtonUp"
+          MouseMove="OperationArea_MouseMove">
         <Image gif:ImageBehavior.AnimatedSource="resources/goat.gif"
            gif:ImageBehavior.AutoStart="True"/>
     </Grid>
