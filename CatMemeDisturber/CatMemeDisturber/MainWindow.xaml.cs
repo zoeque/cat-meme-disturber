@@ -50,7 +50,7 @@ namespace CatMemeDisturber
         /// <param name="y"></param>
         private void ShowWindowAt(double x, double y)
         {
-            MaxwellCat cat = new MaxwellCat();
+			MaxwellCat cat = new MaxwellCat();
             cat.Left = x;
             cat.Top = y;
             cat.Show();
@@ -65,5 +65,28 @@ namespace CatMemeDisturber
         {
             ShowWindowAt(0, 0);
         }
-    }
+
+		/// <summary>
+		/// Show the oiia with a given cordinate
+		/// </summary>
+		/// <param name="x"></param>
+		/// <param name="y"></param>
+		private void ShowOiia(double x, double y)
+		{
+		    Oiia oiia = new Oiia();
+			oiia.Left = x;
+			oiia.Top = y;
+			oiia.Show();
+		}
+
+		/// <summary>
+		/// The button activity when the maxwell button is pressed
+		/// </summary>
+		/// <param name="sender"></param>
+		/// <param name="e
+		private void Oiia_Button_Click(object sender, RoutedEventArgs e)
+		{
+			ShowOiia(0, 0);
+		}
+	}
 }
