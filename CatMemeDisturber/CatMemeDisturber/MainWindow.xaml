@@ -5,38 +5,48 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:CatMemeDisturber"
         mc:Ignorable="d"
-        Title="CatMemeButton" Height="226" Width="200">
-    <Grid Margin="0,0,0,-6" HorizontalAlignment="Center" Width="200">
-        <Button Content="HappyCat" HorizontalAlignment="Center" Margin="0,37,0,138" Width="128" RenderTransformOrigin="0.5,0.5" Click="HappyCat_Button_Click">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleX="-0.674"/>
-                    <RotateTransform/>
-                    <TranslateTransform X="-0.388"/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
-        <Button Content="Goat" HorizontalAlignment="Center" Margin="0,129,0,46" Width="128" RenderTransformOrigin="0.5,0.5" Click="Goat_Button_Click">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleX="-0.674"/>
-                    <RotateTransform/>
-                    <TranslateTransform X="-0.388"/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
-        <Button Content="Maxwell" HorizontalAlignment="Center" Margin="0,83,0,92" Width="128" RenderTransformOrigin="0.5,0.5" Click="Maxwell_Button_Click">
-            <Button.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform AngleX="-0.674"/>
-                    <RotateTransform/>
-                    <TranslateTransform X="-0.388"/>
-                </TransformGroup>
-            </Button.RenderTransform>
-        </Button>
+        Title="CatMemeButton" Height="225" Width="200">
+	<Grid Margin="0,0,0,9" HorizontalAlignment="Center" Width="200">
+		<Button Content="HappyCat" HorizontalAlignment="Left" Margin="34,3,0,158" Width="128" RenderTransformOrigin="0.5,0.5" Click="HappyCat_Button_Click">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform AngleX="-0.674"/>
+					<RotateTransform/>
+					<TranslateTransform X="-0.388"/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button Content="Goat" HorizontalAlignment="Left" Margin="34,98,0,63" Width="128" RenderTransformOrigin="0.5,0.5" Click="Goat_Button_Click">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform AngleX="-0.674"/>
+					<RotateTransform/>
+					<TranslateTransform X="-0.388"/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button Content="Maxwell" HorizontalAlignment="Left" Margin="34,50,0,111" Width="128" RenderTransformOrigin="0.5,0.5" Click="Maxwell_Button_Click">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform AngleX="-0.674"/>
+					<RotateTransform/>
+					<TranslateTransform X="-0.388"/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
+		<Button Content="Oiia" HorizontalAlignment="Left" Margin="34,146,0,15" Width="128" RenderTransformOrigin="0.5,0.5" Click="Oiia_Button_Click">
+			<Button.RenderTransform>
+				<TransformGroup>
+					<ScaleTransform/>
+					<SkewTransform AngleX="-0.674"/>
+					<RotateTransform/>
+					<TranslateTransform X="-0.388"/>
+				</TransformGroup>
+			</Button.RenderTransform>
+		</Button>
 
-    </Grid>
+	</Grid>
 </Window>
